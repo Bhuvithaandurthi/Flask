@@ -3,7 +3,7 @@ import os
 app=Flask(__name__)
 
 @app.route("/")
-def hello():a
+def hello():
     return "hello from flask"
    
 if __name__ == "__main__":
